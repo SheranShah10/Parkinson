@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data directories (keep structure but ignore data files)
+data/raw/*
+!data/raw/.gitkeep
+data/unzipped/*
+!data/unzipped/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/feature_store/*
+!data/feature_store/.gitkeep
+
+# Checkpoints and models
+saved_models/*
+!saved_models/.gitkeep
+
+# Logs and outputs
+logs/*
+!logs/.gitkeep
+experiments/*
+!experiments/.gitkeep
+reports/.gitkeep
+figures/*
+!figures/.gitkeep
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest / Coverage
+.pytest_cache/
+coverage.xml
+htmlcov/
+.coverage
+.coverage.*
+
+# IDEs
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+test_venv/

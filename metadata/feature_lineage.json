@@ -1,0 +1,39 @@
+[
+    {
+        "Feature_Name": "CLINICAL_NonMotor_Severity",
+        "Parents": [
+            "NP1RTOT"
+        ],
+        "Engineering_Method": "Multiplication",
+        "Tags": "Clinical,NonMotor",
+        "Leakage_Safe": true
+    },
+    {
+        "Feature_Name": "MOTOR_Severity_Score",
+        "Parents": [
+            "NP3TOT"
+        ],
+        "Engineering_Method": "Identity",
+        "Tags": "Motor,Clinical",
+        "Leakage_Safe": true
+    },
+    {
+        "Feature_Name": "TEMPORAL_Motor_Lag1",
+        "Parents": [
+            "NP3TOT"
+        ],
+        "Engineering_Method": "Time Shift",
+        "Tags": "Temporal",
+        "Leakage_Safe": true
+    },
+    {
+        "Feature_Name": "TEMPORAL_Motor_Slope",
+        "Parents": [
+            "NP3TOT",
+            "TEMPORAL_Motor_Lag1"
+        ],
+        "Engineering_Method": "Difference",
+        "Tags": "Temporal",
+        "Leakage_Safe": true
+    }
+]

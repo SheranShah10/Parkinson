@@ -1,0 +1,15 @@
+{
+    "master_longitudinal_dataset": {
+        "Required_columns": [
+            "PATNO",
+            "EVENT_ID",
+            "TARGET_TOTAL_UPDRS"
+        ],
+        "Primary_key": [
+            "PATNO",
+            "EVENT_ID"
+        ],
+        "Validation_rules": "No duplicate primary keys; Targets must not be imputed before extraction",
+        "Failure_conditions": "Duplicate keys > 0; Target_Total_UPDRS entirely NaN"
+    }
+}

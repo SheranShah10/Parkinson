@@ -1,0 +1,9 @@
+{
+    "Layout": "Default",
+    "Metrics_Tracked": [
+        "F1",
+        "RMSE",
+        "ROC-AUC"
+    ],
+    "Live": false
+}

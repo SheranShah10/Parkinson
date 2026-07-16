@@ -1,0 +1,14 @@
+{
+    "Benchmark_Version": "v1.0",
+    "Pipeline_Version": "v1.0",
+    "Creation_Timestamp": "2026-07-14T19:36:00.721660Z",
+    "PPMI_Release_Identifier": "14Jul2026",
+    "Repository_Version": "1.0",
+    "Frozen_Files": [
+        "master_longitudinal_dataset.parquet",
+        "master_longitudinal_dataset.csv",
+        "patient_summary.csv",
+        "visit_summary.csv",
+        "cohort_statistics.json"
+    ]
+}

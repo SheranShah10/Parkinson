@@ -1,0 +1,5 @@
+primary_keys:
+- PATNO
+visit_keys:
+- EVENT_ID
+- INFODT

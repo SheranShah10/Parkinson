@@ -1,0 +1,4986 @@
+{
+    "clinical_cohort_v1.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "PDTRTMNT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PDSTATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "HRPOSTMED": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HRDBSON": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HRDBSOFF": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PDMEDYN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DBSYN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ONOFFORDER": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "OFFEXAM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "OFFNORSN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DBSOFFYN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DBSOFFTM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ONEXAM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ONNORSN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HIFUYN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DBSONYN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DBSONTM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PDMEDDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PDMEDTM": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "EXAMDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "EXAMTM": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3SPCH": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3FACXP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RIGN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RIGRU": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RIGLU": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RIGRL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RIGLL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3FTAPR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3FTAPL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3HMOVR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3HMOVL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3PRSPR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3PRSPL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3TTAPR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3TTAPL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3LGAGR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3LGAGL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RISNG": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3GAIT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3FRZGT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3PSTBL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3POSTR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3BRADY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3PTRMR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3PTRML": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3KTRMR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3KTRML": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTARU": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTALU": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTARL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTALL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTALJ": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTCON": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3TOT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DYSKPRES": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DYSKIRAT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NHY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Hoehn & Yahr Stage"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "priority": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "FOUND_Self-Reported_Dx_14Jul2026.csv": {
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "SRDXDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "FOPTRDX": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "FOPTRDXOTHER": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Geriatric_Depression_Scale__Short_Version__14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "GDSSATIS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSDROPD": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSEMPTY": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSBORED": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSGSPIR": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSAFRAD": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSHAPPY": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSHLPLS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSHOME": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSMEMRY": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSALIVE": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSWRTLS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSENRGY": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSHOPLS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GDSBETER": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Neurological_Exam_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "MTRRSP": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CORDRSP": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SENRSP": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RFLXRSP": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PLRRRSP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PLRLRSP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITRSP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "MNTLRSP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CNRSP": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Participant_Status_08Jul2026.csv": {
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "COHORT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "COHORT_DEFINITION": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "ENROLL_DATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "ENROLL_STATUS": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "STATUS_DATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "SCREENEDAM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ENROLL_AGE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Age of Participant"
+        },
+        "INEXPAGE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Age of Participant"
+        },
+        "AV133STDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TAUSTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITSTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PISTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SV2ASTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NXTAUSTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DPPDSTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DPPROSTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "FD4STDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DPASTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DPDPASTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITLEAPSTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "MDGSTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "MNISTDY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DATELIG": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PPMI_ONLINE_ENROLL": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "ENRLPINK1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ENRLPRKN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ENRLSRDC": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ENRLNORM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ENRLOTHGV": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ENRLHPSM": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ENRLRBD": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ENRLLRRK2": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ENRLSNCA": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ENRLGBA": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "SCOPA-AUT_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "PTCGBOTH": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU1": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU2": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU3": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU4": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU5": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU6": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU7": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU8": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU9": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU10": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU11": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU12": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU13": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU14": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU15": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU16": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU17": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU18": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU19": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU20": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU21": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU22": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU23": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU23A": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU23AT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU24": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU25": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU26A": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU26AT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU26B": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU26BT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU26C": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU26CT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU26D": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCAU26DT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "University_of_Pennsylvania_Smell_Identification_Test_UPSIT_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "SCENT_01_CORRECT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_01_RESPONSE": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_02_CORRECT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_02_RESPONSE": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_03_CORRECT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_03_RESPONSE": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_04_CORRECT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_04_RESPONSE": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_05_CORRECT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_05_RESPONSE": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_06_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_06_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_07_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_07_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_08_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_08_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_09_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_09_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_10_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_10_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_11_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_11_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_12_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_12_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_13_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_13_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_14_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_14_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_15_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_15_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_16_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_16_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_17_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_17_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_18_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_18_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_19_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_19_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_20_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_20_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_21_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_21_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_22_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_22_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_23_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_23_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_24_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_24_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_25_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_25_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_26_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_26_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_27_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_27_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_28_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_28_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_29_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_29_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_30_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_30_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_31_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_31_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_32_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_32_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_33_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_33_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_34_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_34_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_35_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_35_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_36_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_36_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_37_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_37_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_38_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_38_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_39_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_39_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_40_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCENT_40_RESPONSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TOTAL_CORRECT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "upsitorder": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "UPSITFORM": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "UPSIT_PRCNTGE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "UPSIT_PRCTVER": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "IMPUTED_DATA": {
+            "type": "bool",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "UPSIT_SOURCE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "UPSITLANGCNTR": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Current_Biospecimen_Analysis_Results_08Jul2026.csv": {
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "SEX": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Sex of Participant"
+        },
+        "COHORT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "CLINICAL_EVENT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "TYPE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "TESTNAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "TESTVALUE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "UNITS": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RUNDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PROJECTID": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PI_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PI_INSTITUTION": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "update_stamp": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Kinetic_data_for_SAA_Results_08Jul2026.csv": {
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "SEX": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Sex of Participant"
+        },
+        "COHORT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "CLINICAL_EVENT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "AMPRION_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "TYPE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "SAAMethod": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "SAA_Result": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "RUNDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "Plate_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "Wells": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "Fmax": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TTT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "AUC_Fluoro": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "Time_To_Max_Slope": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "Max_Slope": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PROJECTID": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PI_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PI_INSTITUTION": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "SAA_Biospecimen_Analysis_Results_08Jul2026.csv": {
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "SEX": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Sex of Participant"
+        },
+        "COHORT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "CLINICAL_EVENT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "TYPE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "SAAMethod": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "SAA_Status": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "SAA_Type": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "Fmax_24h_Rep1": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "Fmax_24h_Rep2": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "Fmax_24h_Rep3": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TTT_24h_Rep1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TTT_24h_Rep2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TTT_24h_Rep3": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "AUC_24h_Rep1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "AUC_24h_Rep2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "AUC_24h_Rep3": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TSmax_24h_Rep1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TSmax_24h_Rep2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TSmax_24h_Rep3": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SLOPEMax_24h_Rep1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SLOPEMax_24h_Rep2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SLOPEMax_24h_Rep3": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "Fmax_150h_Rep1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "Fmax_150h_Rep2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "Fmax_150h_Rep3": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TTT_150h_Rep1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TTT_150h_Rep2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TTT_150h_Rep3": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "AUC_150h_Rep1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "AUC_150h_Rep2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "AUC_150h_Rep3": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "T50_150h_Rep1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "T50_150h_Rep2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "T50_150h_Rep3": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SLOPE_150h_Rep1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SLOPE_150h_Rep2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SLOPE_150h_Rep3": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "InstrumentRep1": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "InstrumentRep2": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "InstrumentRep3": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SampleVolRep1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SampleVolRep2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SampleVolRep3": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RUNDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PROJECTID": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PI_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PI_INSTITUTION": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Dopamine_Imaging_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "SUB_EVENT_ID": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "OFF_SCHEDULE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DATSCAN": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DATSCANTRC": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PREVDATDT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCNLOC": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SCNINJCT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "VSINTRPT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "VSRPTELG": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DIFFLOC": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Xing_Core_Lab_-_Quant_SBR_14Jul2026.csv": {
+        "PROTOCOL": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PREVIOUSLY_ACQUIRED": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "DATSCAN_LIGAND": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "DATSCAN_DATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "DATSCAN_ANALYZED": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "DATSCAN_NOT_ANALYZED_REASON": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DATSCAN_OTHER_SPECIFY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "STRIATUM_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CAUDATE_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PUTAMEN_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PRECAUDATE_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSCAUDATE_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PRECOMMISSURAL_PUTAMEN_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSCOMMISSURAL_PUTAMEN_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PREDORSALPUTAMEN_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PREVENTRALPUTAMEN_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSDORSALPUTAMEN_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSVENTRALPUTAMEN_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "STRIATUM_L_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CAUDATE_L_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PUTAMEN_L_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PRECAUDATE_L_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSCAUDATE_L_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PRECOMMISSURAL_PUTAMEN_L_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSCOMMISSURAL_PUTAMEN_L_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PREDORSALPUTAMEN_L_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PREVENTRALPUTAMEN_L_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSDORSALPUTAMEN_L_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSVENTRALPUTAMEN_L_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "STRIATUM_R_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CAUDATE_R_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PUTAMEN_R_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PRECAUDATE_R_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSCAUDATE_R_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PRECOMMISSURAL_PUTAMEN_R_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSCOMMISSURAL_PUTAMEN_R_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PREDORSALPUTAMEN_R_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PREVENTRALPUTAMEN_R_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSDORSALPUTAMEN_R_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "POSVENTRALPUTAMEN_R_REF_CWM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Xing_Core_Lab_-_Visual_Read_14Jul2026.csv": {
+        "PROTOCOL": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "DATSCAN_LIGAND": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DATSCAN_VISINTRP": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "DATSCAN_DATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Clinical_Diagnosis_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "NEWDIAG": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NEWDIAGOTHER": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DIAGSINLV": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DIAGDT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Concomitant_Medication_Log_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "CMTRT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "CMDOSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CMDOSU": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "CMDOSFRQ": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "ROUTE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "STARTDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "STOPDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "ONGOING": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CMINDC": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CMINDC_TEXT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "TOTDDOSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RECNO": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SEQNO1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SEQNO2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "WHODRUG": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "EXCLMED": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Features_of_Parkinsonism_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "FEATBRADY": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "FEATPOSINS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "FEATRIGID": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "FEATTREMOR": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PSGLVL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Initiation_of_Dopaminergic_Therapy_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "DOPTHERST": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "LEDD_Concomitant_Medication_Log_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LEDTRT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "TOTDDA": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "LEDDSTRMG": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "LEDDOSSTR": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LEDDOSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "LEDDOSFRQ": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "STARTDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "STOPDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LEDD": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Medical_Conditions_Log_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "RESYR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "MHDIAGYR": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "MHCAT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "MHHX": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "MHDIAGDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "MHTERM": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "RESOLVD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RESDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "PD_Diagnosis_History_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "SXDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PDDXDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "DXTREMOR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DXRIGID": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DXBRADY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DXPOSINS": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DXOTHSX": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DOMSIDE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Vital_Signs_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "WGTKG": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HTCM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TEMPC": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "BPARM": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SYSSUP": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DIASUP": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HRSUP": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SYSSTND": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DIASTND": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HRSTND": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Gait_Data___Arm_swing__Axivity__14Jul2026.csv": {
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "VISNO": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "StartTime": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "StopTime": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "NumberofDays": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ValidDays6HR": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ValidDays12HR": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NonWearDetected": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "UpSideDownDetected": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PercentNight": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NightTimeHr": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PercentWalking": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "WalkingTime": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PercentLying": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "LyingTime": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PercentSitting": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SittingTime": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PercentStanding": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "StandingTime": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PercentSedentary": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SedentaryTime": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PercentOther": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "OtherTime": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "MeanSVMDaymg": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "MeanSVMNightmg": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SumSVMDaymg": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SumSVMNightmg": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PercentActiveDay": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PercentActiveNight": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "x_5_10Sec": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "x_10_20Sec": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "x_20_30Sec": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "x_30_60Sec": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "x_60_120Sec": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "x__120Sec": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "StepCount": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NumberOfNappingBouts": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "MeanNapBoutmin": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TotalNapTimemin": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ActualNightTimehr": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "WakeTimeNightminutes": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PercentWakeNight": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NumWalkBoutsNight": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "WalkTimeNightminutes": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PercentWalkNight": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NumberOfRotations": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "TimeOfRotationsec": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DegreesOfRotationdeg": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "VelocityOfRotationdegsec": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NumberOfBouts": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ActivityLevel": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CadencetimeDomain": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "rmsV": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "rmsML": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "rmsAP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ampV": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ampML": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ampAP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "wdV": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "wdML": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "wdAP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stpRegV": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "strRegV": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stepAsymV": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stpRegML": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "strRegML": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stepAsymML": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stpRegAP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "strRegAP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stepAsymAP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stepTime": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "strideTime": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CVStrideTime": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CVStepTime": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CVSteplength": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "StepVelocitycmsec": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SampEntropyV": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SampEntropyML": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SampEntropyAP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "rmsV_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "rmsML_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "rmsAP_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ampV_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ampML_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ampAP_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "wdV_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "wdML_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "wdAP_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stpRegV_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "strRegV_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stepAsymV_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stpRegML_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "strRegML_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stepAsymML_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stpRegAP_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "strRegAP_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stepAsymAP_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "stepTime_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "strideTime_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CVStrideTime_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CVStepTime_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CVSteplength_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "StepVelocitycmsec_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SampEntropyV_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SampEntropyML_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SampEntropyAP_STD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Gait_Substudy_Gait_Mobility_Assessment_and_Measurement_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "SUB_EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "AXIVITYUSED": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "AXIVITYDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "AXIVITYUP": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "AXIVITYUPDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "OPALUSED": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RARMLEN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "LARMLEN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RLEGLEN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "LLEGLEN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITASTCMPLT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITASTTM": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITTUG1": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITTUG2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITASTUS": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITASTDUAL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITASTSUBS": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITASTMIS": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAITASTTRANSDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "MDS-UPDRS_Part_III_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "PDTRTMNT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PDSTATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "HRPOSTMED": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HRDBSON": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HRDBSOFF": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PDMEDYN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DBSYN": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ONOFFORDER": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "OFFEXAM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "OFFNORSN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DBSOFFYN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DBSOFFTM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ONEXAM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ONNORSN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HIFUYN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DBSONYN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DBSONTM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PDMEDDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PDMEDTM": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "EXAMDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "EXAMTM": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3SPCH": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3FACXP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RIGN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RIGRU": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RIGLU": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RIGRL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RIGLL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3FTAPR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3FTAPL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3HMOVR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3HMOVL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3PRSPR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3PRSPL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3TTAPR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3TTAPL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3LGAGR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3LGAGL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RISNG": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3GAIT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3FRZGT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3PSTBL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3POSTR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3BRADY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3PTRMR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3PTRML": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3KTRMR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3KTRML": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTARU": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTALU": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTARL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTALL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTALJ": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3RTCON": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP3TOT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DYSKPRES": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DYSKIRAT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NHY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Hoehn & Yahr Stage"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "MDS-UPDRS_Part_IV__Motor_Complications_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "NP4WDYSK": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4WDYSKDEN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4WDYSKNUM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4WDYSKPCT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4DYSKI": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4OFF": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4OFFDEN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4OFFNUM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4OFFPCT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4FLCTI": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4FLCTX": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4DYSTN": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4DYSTNDEN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4DYSTNNUM": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4DYSTNPCT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP4TOT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "MDS-UPDRS_Part_I_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "NUPSOURC": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1COG": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1HALL": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1DPRS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1ANXS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1APAT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1DDS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1RTOT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "MDS-UPDRS_Part_I_Patient_Questionnaire_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "NUPSOURC": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1SLPN": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1SLPD": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1PAIN": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1URIN": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1CNST": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1LTHD": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1FATG": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP1PTOT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "MDS_UPDRS_Part_II__Patient_Questionnaire_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "NUPSOURC": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2SPCH": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2SALV": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2SWAL": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2EAT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2DRES": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2HYGN": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2HWRT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2HOBB": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2TURN": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2TRMR": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2RISE": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2WALK": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2FREZ": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NP2PTOT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Roche_PD_Monitoring_App_v2_data_14Jul2026.csv": {
+        "STUDYID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "QRSCATID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSSCAT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSSTAT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSREAS": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSCLMD": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSIVQFL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSIVQRS": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSTSTID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSTEST": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSLAT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSDTM": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSDTM_TIME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSSTDTC": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSSTDTC_TIME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSENDTC": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSENDTC_TIME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSRESN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSRESC": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "QRSORESU": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "Age": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Age of Participant"
+        }
+    },
+    "Epworth_Sleepiness_Scale_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "PTCGBOTH": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ESS1": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ESS2": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ESS3": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ESS4": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ESS5": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ESS6": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ESS7": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ESS8": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "REM_Sleep_Behavior_Disorder_Screening_Questionnaire_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "PTCGBOTH": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DRMVIVID": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DRMAGRAC": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DRMNOCTB": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SLPLMBMV": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SLPINJUR": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DRMVERBL": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DRMFIGHT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DRMUMV": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DRMOBJFL": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "MVAWAKEN": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DRMREMEM": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "SLPDSTRB": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "STROKE": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HETRA": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PARKISM": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RLS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "NARCLPSY": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "DEPRS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EPILEPSY": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "BRNINFM": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "CNSOTH": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Eligibility_Override_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "SUB_EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "FOUND_Enrollment_Status_14Jul2026.csv": {
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "FOSTATUS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "FOCONSENTDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "FOFOLLOWST": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "FOFOLLOWMO": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "FOVITAL": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "FODOD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "FOVITALUPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "FOVITALSOURCE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "FODODCERTAINTY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "FODEATHCAUSE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Inclusion_Exclusion_14Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "EXFAMPD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXNEURCURR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INAGE30": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Age of Participant"
+        },
+        "INLRRK2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INLRRK2GBA": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INLRRK2GBACORE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INHY1OR2": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Hoehn & Yahr Stage"
+        },
+        "EX60DYPDRX": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EX90DYPDRX": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXABCOND": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXANTCOAG": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXATYPPD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXCURPDRX": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXDARX6MO": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXMEDDBS": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXDEMNTDX": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXNEURMRI": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXUNSAFLP": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXOTHRSN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "IN2CARDPD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "IN2YRPD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "IN7YRPD": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INCNST": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INHOLDRX": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INNOMED6MO": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INPREGNT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "EXPDDEMDX": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INAGE4030": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Age of Participant"
+        },
+        "INAGE6030": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Age of Participant"
+        },
+        "INDATSCN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INPRESCRN": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INSAA": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INHY1TO3": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Hoehn & Yahr Stage"
+        },
+        "INPDSC": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INPDDXSC": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INSNCAPARK": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INSNCAPARKCORE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "INUPSIT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Age_at_visit_08Jul2026.csv": {
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "AGE_AT_VISIT": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Age of Participant"
+        }
+    },
+    "Demographics_08Jul2026.csv": {
+        "REC_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "EVENT_ID": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Visit Identifier"
+        },
+        "PAG_NAME": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "INFODT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Information Date"
+        },
+        "AFICBERB": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ASHKJEW": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "BASQUE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "BIRTHDT": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "SEX": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Sex of Participant"
+        },
+        "CHLDBEAR": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HOWLIVE": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "GAYLES": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HETERO": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "BISEXUAL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "PANSEXUAL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ASEXUAL": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "OTHSEXUALITY": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HANDED": {
+            "type": "float64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "HISPLAT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RAASIAN": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RABLACK": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RAHAWOPI": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RAINDALS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RANOS": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RAWHITE": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "RAUNKNOWN": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "ORIG_ENTRY": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        },
+        "LAST_UPDATE": {
+            "type": "str",
+            "is_numeric": false,
+            "description": "Unknown/Standard feature"
+        }
+    },
+    "Subject_Cohort_History_08Jul2026.csv": {
+        "PATNO": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Patient Identifier"
+        },
+        "APPRDX": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        },
+        "COHORT": {
+            "type": "int64",
+            "is_numeric": true,
+            "description": "Unknown/Standard feature"
+        }
+    }
+}

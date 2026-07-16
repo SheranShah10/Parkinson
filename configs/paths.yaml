@@ -1,0 +1,7 @@
+raw_data: data/raw
+unzipped_data: data/unzipped
+processed_data: data/processed
+reports: reports
+metadata: metadata
+checkpoints: models/checkpoints
+logs: logs

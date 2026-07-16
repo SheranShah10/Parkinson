@@ -1,0 +1,16 @@
+clinical:
+- Participant_Status
+- Demographics
+motor:
+- MDS_UPDRS
+imaging:
+- DaTSCAN
+- MRI
+omics:
+- Proteomic_Analysis
+digital_biomarkers:
+- Roche_Smartphone_App
+non_motor:
+- SCOPA
+- UPSIT
+- GDS

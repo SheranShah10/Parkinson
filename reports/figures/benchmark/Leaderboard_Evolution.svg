@@ -1,0 +1,10 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+<rect x="50" y="53.37078651685391" width="50" height="296.6292134831461" fill="#3498db" />
+<text x="55" y="370" font-family="Arial" font-size="12">LightGBM</text>
+<rect x="150" y="63.48314606741576" width="50" height="286.51685393258424" fill="#3498db" />
+<text x="155" y="370" font-family="Arial" font-size="12">RandomForest</text>
+<rect x="250" y="50.0" width="50" height="300.0" fill="#3498db" />
+<text x="255" y="370" font-family="Arial" font-size="12">NativeVotingEnsemble</text>
+<rect x="350" y="93.82022471910113" width="50" height="256.17977528089887" fill="#3498db" />
+<text x="355" y="370" font-family="Arial" font-size="12">Ridge</text>
+</svg>

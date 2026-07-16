@@ -1,0 +1,26 @@
+{
+    "clinical": {
+        "Hash": "0cf42085d35f109d8dbf4c171601ee9c3eb8df183200a26cfef6eb24d115fae0",
+        "Rows": 8802,
+        "Cols": 3,
+        "Timestamp": "2026-07-14T20:40:08.502514"
+    },
+    "motor": {
+        "Hash": "3bed753ed691d77ea908e329c17d0cd132bc02f17f6803d2ced00c5b683b0380",
+        "Rows": 8802,
+        "Cols": 3,
+        "Timestamp": "2026-07-14T20:40:08.580081"
+    },
+    "temporal": {
+        "Hash": "99557f8e1e3e0466f38a4cca2a1c6bc7eedbda44e6f5ab17445794876af9b84c",
+        "Rows": 8802,
+        "Cols": 4,
+        "Timestamp": "2026-07-14T20:40:08.624527"
+    },
+    "master": {
+        "Hash": "a99d4eb9fde44402260b28ad64b003b927ce7842d4ff9af4747fffbfa025bad8",
+        "Rows": 8802,
+        "Cols": 746,
+        "Timestamp": "2026-07-14T20:40:09.484729"
+    }
+}

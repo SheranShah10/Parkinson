@@ -1,0 +1,9 @@
+{
+    "Frameworks": [
+        "SHAP",
+        "Integrated Gradients",
+        "Grad-CAM",
+        "GNNExplainer"
+    ],
+    "Status": "Registered for Phase 8 Explainability"
+}

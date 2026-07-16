@@ -1,0 +1,8 @@
+classification:
+- accuracy
+- f1
+- auroc
+regression:
+- mse
+- mae
+- r2

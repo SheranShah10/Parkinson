@@ -1,0 +1,11 @@
+{
+    "checks": {
+        "duplicate_visits": 2728,
+        "missing_nhy_targets": 4808
+    },
+    "flow": {
+        "Initial": 8837,
+        "Filtered_PD_HC": 2618,
+        "Final": 1467
+    }
+}

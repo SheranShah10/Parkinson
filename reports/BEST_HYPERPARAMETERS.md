@@ -1,0 +1,13 @@
+# BEST HYPERPARAMETERS
+
+[
+  {
+    "Model": "RandomForest",
+    "Strategy": "Grid Search (Native)",
+    "Best_Score": 0.82,
+    "Best_Params": {
+      "n_estimators": 100,
+      "max_depth": 5
+    }
+  }
+]

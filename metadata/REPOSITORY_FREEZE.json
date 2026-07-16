@@ -1,0 +1,8 @@
+{
+    "Benchmark_Version": "1.0",
+    "Freeze_Timestamp": "2026-07-15T00:55:04.391005",
+    "Hashes": {
+        "paper/tables/classification.tex": "65f42e76c236bb00b739c072b55c8e4b5f1a9f43bea2bcad98ffdff56b502ff0",
+        "docs/model_cards/XGBoost.md": "b812cc0bf31fcc47d410408672dc7a098df82a66309eb0ccb1f5d838b23770c3"
+    }
+}

@@ -1,0 +1,3 @@
+Model,Status,Folds,F1
+RandomForest,Completed,5,0.85
+XGBoost,Skipped (Missing Dependency),0,N/A

@@ -1,0 +1,43 @@
+{
+    "Benchmark_Name": "Parkinson Progression Benchmark",
+    "Version": "v1.0",
+    "Description": "Longitudinal, multimodal Parkinson's disease cohort for progression tracking.",
+    "Supported_Tasks": [
+        "Stage Classification",
+        "Severity Regression",
+        "12-month Progression",
+        "24-month Progression",
+        "36-month Progression"
+    ],
+    "Supported_Modalities": [
+        "Clinical",
+        "Motor",
+        "Imaging",
+        "Proteomics",
+        "Biospecimens",
+        "Medication",
+        "Wearables",
+        "Smartphone",
+        "Sleep",
+        "UPSIT",
+        "SCOPA"
+    ],
+    "Available_Targets": [
+        "TARGET_NHY",
+        "TARGET_TOTAL_UPDRS",
+        "TARGET_UPDRS_DELTA_12",
+        "TARGET_UPDRS_DELTA_24",
+        "TARGET_UPDRS_DELTA_36"
+    ],
+    "Evaluation_Metrics": [
+        "RMSE",
+        "MAE",
+        "R2",
+        "F1",
+        "AUROC"
+    ],
+    "Recommended_Cross_Validation": "GroupKFold by PATNO to prevent leakage",
+    "License": "PPMI Data Usage Agreement",
+    "Citation": "PPMI Consortium",
+    "Repository_Information": "Phase 4 Cohort Engine"
+}

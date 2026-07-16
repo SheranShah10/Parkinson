@@ -1,0 +1,12 @@
+{
+    "Schema_SHA256": "fe39872340088d8df11f7079234a91f0d027d593eaca542db23a71c1d80dd840",
+    "Rows": 8802,
+    "Columns": 742,
+    "Patients": 1467,
+    "Visits": 8802,
+    "Features": 735,
+    "Targets": 5,
+    "Dataset_Version": "v1.0",
+    "Pipeline_Version": "v1.0",
+    "Build_Timestamp": "2026-07-14T19:36:00.721660Z"
+}

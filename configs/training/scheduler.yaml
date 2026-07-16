@@ -1,0 +1,2 @@
+type: CosineAnnealingLR
+T_max: 100

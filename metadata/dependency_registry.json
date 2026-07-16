@@ -1,0 +1,34 @@
+{
+    "sklearn": {
+        "Available": true,
+        "Message": "Available"
+    },
+    "lightgbm": {
+        "Available": false,
+        "Message": "No module named 'lightgbm'"
+    },
+    "xgboost": {
+        "Available": false,
+        "Message": "No module named 'xgboost'"
+    },
+    "catboost": {
+        "Available": false,
+        "Message": "No module named 'catboost'"
+    },
+    "matplotlib": {
+        "Available": true,
+        "Message": "Available"
+    },
+    "seaborn": {
+        "Available": true,
+        "Message": "Available"
+    },
+    "shap": {
+        "Available": false,
+        "Message": "No module named 'shap'"
+    },
+    "optuna": {
+        "Available": false,
+        "Message": "No module named 'optuna'"
+    }
+}

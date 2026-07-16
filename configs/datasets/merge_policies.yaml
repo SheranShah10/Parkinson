@@ -1,0 +1,42 @@
+default: one_to_one
+policies:
+  Motor:
+    strategy: one_to_one
+    identifiers:
+    - PATNO
+    - EVENT_ID
+  Clinical:
+    strategy: one_to_one
+    identifiers:
+    - PATNO
+    - EVENT_ID
+  Imaging:
+    strategy: one_to_one
+    identifiers:
+    - PATNO
+    - EVENT_ID
+  Medication:
+    strategy: aggregate
+    identifiers:
+    - PATNO
+    - EVENT_ID
+  Proteomics:
+    strategy: pivot
+    identifiers:
+    - PATNO
+    - CLINICAL_EVENT
+  Biospecimens:
+    strategy: pivot
+    identifiers:
+    - PATNO
+    - CLINICAL_EVENT
+  Smartphone:
+    strategy: sequence
+    identifiers:
+    - PATNO
+    - QRSDTM
+  Wearables:
+    strategy: sequence
+    identifiers:
+    - PATNO
+    - DATE
